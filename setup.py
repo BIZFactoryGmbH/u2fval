@@ -63,7 +63,8 @@ setup(
     install_requires=[
         'python-u2flib-server >= 5, <6',
         'flask',
-        'flask-sqlalchemy'
+        'flask-sqlalchemy',
+        'werkzeug' >= 0.16.0, <=0.16.1'
     ],
     test_suite='test',
     extras_require={
@@ -82,6 +83,8 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Internet',
         'Topic :: Security',
